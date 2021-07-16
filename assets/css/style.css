@@ -7,10 +7,21 @@
 }
 
 body {
-    color: blue;
+    color: grey;
     font-family: 'Lato', sans-serif;
+    font-weight: 450;
 }
 
-header h1 {
+/* headings and logo*/
+
+h1, h2 {
+    color: black;
     font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+#logo {
+    float: left;
+    font-size: 400%;
 }
