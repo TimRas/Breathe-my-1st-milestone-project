@@ -57,9 +57,15 @@ h1, h2 {
 
 /* hero image*/
 
-#hero-image {
+#hero-outer {
     height: 600px;
     width: 100%;
+    overflow: hidden;
+}
+
+#hero-image {
+    height: 100vh;
+    width: 100vw;
     background: url('../images/hero-image.jpg') no-repeat center center ;
-    background-size: cover;
+    background-size: cover; 
 }
