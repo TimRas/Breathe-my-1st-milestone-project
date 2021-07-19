@@ -26,7 +26,7 @@ h1, h2 {
     font-size: 400%;
 }
 
-/*navigation links*/
+/* navigation links*/
 
 #menu {
     font-size: 200%;
@@ -100,25 +100,51 @@ h1, h2 {
     height: 600px;
     width: 100%;
     position: relative;
+    overflow: hidden;
+}
+
+hr {
+    border: solid 1px black;
 }
 
 #physical-intro {
     padding-top: 30px;
     height: 33%;
+    width: 66%; 
+    padding-left: 10px;
+    bottom: 30px;
+    left: 30px;
     position: relative;
-    color: red;
+  
 }
 
 #mental-intro {
-    padding-top: 30px;
+    padding-bottom: 30px;
     height: 33%;
+    width: 66%;
+    padding-right: 10px;
+    bottom: 30px;
+    right: 30px;
+    float: right;
     position: relative;
-    color: green;
+  
 }
+
+#mental-heading {
+    position: relative;
+    left: 1025px;
+    
+}
+
+    
 
 #emotional-intro {
     padding-top: 30px;
     height: 33%;
-    position: relative;
-    color: blue;
+    width: 66%;
+    padding-left: 10px;
+    bottom: 30px;
+    left: 30px;
+    position: absolute;
+    
 }
