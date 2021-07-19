@@ -68,7 +68,8 @@ h1, h2 {
     height: 600px;
     width: 100%;
     background: url('../images/hero-image.jpg') no-repeat center center ;
-    background-size: cover;    
+    background-size: cover;  
+    background-color: grey;  
      
 }
 
@@ -151,9 +152,8 @@ hr {
 
 /* footer and icons*/
 
-br {
-    border: solid 2px black;
-    height: 2px;
+hr {
+    border: solid none black;
 }
 
 footer {
