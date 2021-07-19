@@ -148,3 +148,37 @@ hr {
     position: absolute;
     
 }
+
+/* footer and icons*/
+
+br {
+    border: solid 2px black;
+    height: 2px;
+}
+
+footer {
+    height: 100%;
+    background-color: grey;
+}
+
+footer > p {
+    color: black;
+    font-weight: 600;
+    font-size: 160%;
+}
+
+.social-networks {
+    text-align: center;
+    
+}
+
+.social-networks > li {
+    display: inline
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3492eb ;
+}
