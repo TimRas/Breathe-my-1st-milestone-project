@@ -2,6 +2,8 @@ Testing:
 
 I tested to see if my navigation links would have the same color inherited from the body by changing the color of the body. The navigation links changed correspondly.
 
+To see if the structure for my divs in the three spectrums section was correct, I used three colors to see the setup. The three divs where positioned properly.
+
 
 Credits:
 
