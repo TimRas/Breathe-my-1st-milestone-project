@@ -6,6 +6,15 @@
     border: none;
 }
 
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrapper {
+    padding-bottom: 150px;
+}
+
 body {
     color: grey;
     font-family: 'Lato', sans-serif;
@@ -152,33 +161,85 @@ hr {
 
 /* footer and icons*/
 
-hr {
-    border: solid none black;
-}
-
-footer {
-    height: 100%;
+#footer {
+    width: 100%;
     background-color: grey;
+    position: absolute;
+    height: 100px;
+
+    
 }
 
 footer > p {
     color: black;
     font-weight: 600;
     font-size: 160%;
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    bottom: 10px;
 }
 
 .social-networks {
     text-align: center;
+    height: 70px;
     
 }
 
 .social-networks > li {
-    display: inline
+    display: inline;
+    padding: 1%;
+    margin: 5%;
+    position: relative;
+    top: 40px;
 }
 
 .social-networks i {
     font-size: 160%;
-    margin: 1%;
-    padding: 5%;
     color: #3492eb ;
+}
+
+/* steps section*/
+
+#steps {
+    height: 600px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.upper-divs {
+    font-size: 100%;
+    font-family: 'lato', sans-serif;
+    letter-spacing: 4px;
+
+    width: 1400px;
+    height: 25%;
+    padding-top: 40px;
+    padding-left: 10px;
+    background-color: white;
+    opacity: .4;
+
+    bottom: 30px;
+    left: 30px;
+    display: block;
+    position: absolute;
+}
+
+.lower-divs {
+    font-size: 100%;
+    font-family: 'lato', sans-serif;
+    letter-spacing: 4px;
+
+    width: 800px;
+    height: 25%;
+    padding-top: 40px;
+    padding-left: 10px;
+    background-color: white;
+    opacity: .4;
+
+    bottom: 30px;
+    left: 30px;
+    display: block;
+    position: absolute;
 }
