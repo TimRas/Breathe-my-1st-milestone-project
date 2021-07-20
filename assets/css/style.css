@@ -205,7 +205,6 @@ footer > p {
     height: 600px;
     width: 100%;
     position: relative;
-    overflow: hidden;
 }
 
 .upper-divs {
@@ -214,16 +213,16 @@ footer > p {
     letter-spacing: 4px;
 
     width: 1400px;
-    height: 25%;
+    height: 100px;
     padding-top: 40px;
     padding-left: 10px;
     background-color: white;
-    opacity: .4;
+    margin-top: 50px;
 
     bottom: 30px;
     left: 30px;
     display: block;
-    position: absolute;
+    position: relative;
 }
 
 .lower-divs {
@@ -232,14 +231,14 @@ footer > p {
     letter-spacing: 4px;
 
     width: 800px;
-    height: 25%;
+    height: 150px;
     padding-top: 40px;
     padding-left: 10px;
     background-color: white;
-    opacity: .4;
+    margin-bottom: 35px;
 
     bottom: 30px;
     left: 30px;
     display: block;
-    position: absolute;
+    position: relative;
 }
