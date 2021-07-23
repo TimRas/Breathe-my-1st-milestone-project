@@ -7,18 +7,13 @@
 }
 
 #page-container {
-    position: relative;
     min-height: 100vh;
-}
-
-#content-wrapper {
-    padding-bottom: 150px;
 }
 
 body {
     color: grey;
     font-family: 'Lato', sans-serif;
-    font-weight: 450;
+    font-weight: 400;
 }
 
 /* headings and logo*/
@@ -32,7 +27,12 @@ h1, h2 {
 
 #logo {
     float: left;
-    font-size: 400%;
+    font-size: 2rem;
+    margin-left: 15%;
+}
+
+#header {
+    height: 1rem;
 }
 
 /* navigation links*/
@@ -42,13 +42,16 @@ h1, h2 {
 }
 
 #menu, #logo {
-    line-height: 75px;
+    line-height: 5rem;
+    margin-right: 15%;
 }
 
 #menu li {
     float: right;
     list-style-type: none;
-    letter-spacing: 4px;   
+    letter-spacing: 2px;
+    margin: 1%;   
+    font-size: 1.5rem;
 }
 
 #menu a {
@@ -164,8 +167,7 @@ hr {
 #footer {
     width: 100%;
     background-color: grey;
-    position: absolute;
-    height: 100px;
+    height: 8rem;
 
     
 }
@@ -173,30 +175,26 @@ hr {
 footer > p {
     color: black;
     font-weight: 600;
-    font-size: 160%;
-    position: relative;
-    float: right;
-    margin-right: 10px;
-    bottom: 10px;
+    transform: translateY(3.5em);
+    text-align: center;
+    letter-spacing: 1px;
 }
 
 .social-networks {
     text-align: center;
-    height: 70px;
     
 }
 
 .social-networks > li {
     display: inline;
-    padding: 1%;
-    margin: 5%;
+    margin: 1em;
     position: relative;
-    top: 40px;
+    top: 2em;
 }
 
 .social-networks i {
     font-size: 160%;
-    color: #3492eb ;
+    color: #fff;
 }
 
 /* steps section*/
@@ -246,21 +244,19 @@ footer > p {
 /* form section*/
 
 #form-section {
-    height: 600px;
-    width: 80%;
+    height: 35rem;
     margin: auto;
-    margin-top: 150px;
-    background-color: grey;
+    margin-top: 5rem;
+    background-color: #c3c2c2;
 }
 
 .signup-form {
     margin: auto;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
-    position: relative;
-    padding: 30px;
-    top: 100px;
+    padding: 2em;
+    transform: translateY(5em);
+    width: 20rem;
 
 }
 
@@ -281,7 +277,7 @@ footer > p {
 }
 
 .text-input:hover {
-    border-color: #f16c6b;
+    border-color: #005b9f;
 }
 
 .join-button {
@@ -290,12 +286,13 @@ footer > p {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
-    color: #fafafa;
+    background-color:#005b9f;
+    color:  white;
     display: block;
+    letter-spacing: 1px;
 }
 
 .join-button:hover {
-    background-color: #fafafa;
-    color: #f16c6b;
+    background-color: white;
+    color: #005b9f;
 }
