@@ -182,6 +182,24 @@ footer > p {
 
 }
 
+#mental-image {
+    height: 100%;
+    background: url('../images/mental-image.jpg') no-repeat center center ;
+    background-size: cover;  
+    background-color: grey; 
+    border-radius: 50%;
+    opacity: .9;
+
+}
+
+#emotional-image {
+    height: 100%;
+    background: url('../images/emotional-image.jpg') no-repeat center center ;
+    background-size: cover;  
+    background-color: grey; 
+    border-radius: 50%;
+}
+
 #steps {
     height: 55em;
     width: 80vw;
@@ -223,6 +241,7 @@ footer > p {
 #steps-container {
     height: 20em;
     width: 20em;
+    padding: 1%;
     transform: translate(55em, -20em);
     border-radius: 50%;
     border-width: 1px;
@@ -236,6 +255,22 @@ footer > p {
     background-size: cover;  
     background-color: grey; 
     border-radius: 50%;
+}
+
+#mental-quote {
+    height: 100%;
+    background: url('../images/mental-quote.jpg') no-repeat center center ;
+    background-size: cover;  
+    background-color: grey; 
+    border-radius: 50%;    
+}
+
+#emotional-quote {
+    height: 100%;
+    background: url('../images/emotional-quote.jpg') no-repeat center center ;
+    background-size: cover;  
+    background-color: grey; 
+    border-radius: 50%;    
 }
 
 /* form section*/
