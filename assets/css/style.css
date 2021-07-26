@@ -153,7 +153,34 @@ footer > p {
     color: #fff;
 }
 
-/* steps section*/
+/* steps section and images*/
+
+#outer-container {
+    padding-top: 10em;
+    height: 22em;
+    width: 100vw;
+}
+
+#circle-container {
+    height: 20em;
+    width: 20em;
+    padding: 1em;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#physical-image {
+    height: 100%;
+    background: url('../images/physical-image.jpg') no-repeat center center ;
+    background-size: cover;  
+    background-color: grey; 
+    border-radius: 50%;
+
+}
 
 #steps {
     height: 55em;
@@ -165,26 +192,50 @@ footer > p {
 .upper-divs {
     font-size: 100%;
     font-family: 'lato', sans-serif;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    opacity: .9;
 
-    padding-top: 40px;
+    padding-top: 30px;
     padding-left: 10px;
     background-color: white;
-    margin-top: 50px;
+    margin-top: 30px;
+    color: black;
 }
 
 .lower-divs {
     font-size: 100%;
     font-family: 'lato', sans-serif;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    opacity: .9;
 
-    width: 800px;
+    width: 45vw;
     height: 150px;
-    padding-top: 40px;
+    padding-top: 30px;
     padding-left: 10px;
-    margin-top: 50px;
+    margin-top: 30px;
     background-color: white;
+    color: black;
     
+}
+
+#steps-container {
+    height: 20em;
+    width: 20em;
+    transform: translate(55em, -20em);
+    border-radius: 50%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+}
+
+#steps-image {
+    height: 100%;
+    background: url('../images/walking-quote.jpg') no-repeat center center ;
+    background-size: cover;  
+    background-color: grey; 
+    border-radius: 50%;
 }
 
 /* form section*/
