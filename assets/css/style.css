@@ -156,9 +156,10 @@ footer > p {
 /* steps section*/
 
 #steps {
-    height: 600px;
-    width: 100%;
-    position: relative;
+    height: 55em;
+    width: 80vw;
+    overflow: hidden;
+    margin: auto;
 }
 
 .upper-divs {
@@ -166,17 +167,10 @@ footer > p {
     font-family: 'lato', sans-serif;
     letter-spacing: 4px;
 
-    width: 1400px;
-    height: 100px;
     padding-top: 40px;
     padding-left: 10px;
     background-color: white;
     margin-top: 50px;
-
-    bottom: 30px;
-    left: 30px;
-    display: block;
-    position: relative;
 }
 
 .lower-divs {
@@ -188,13 +182,9 @@ footer > p {
     height: 150px;
     padding-top: 40px;
     padding-left: 10px;
+    margin-top: 50px;
     background-color: white;
-    margin-bottom: 35px;
-
-    bottom: 30px;
-    left: 30px;
-    display: block;
-    position: relative;
+    
 }
 
 /* form section*/
