@@ -21,11 +21,11 @@ body {
 h1, h2 {
     color: black;
     font-family: 'Poppins', sans-serif;
-    font-weight: 900;
-    text-transform: uppercase;
+    font-weight: 600;
 }
 
 #logo {
+    font-family: 'Poppins', sans-serif;
     float: left;
     font-size: 2rem;
     margin-left:  10vw;
@@ -37,10 +37,6 @@ h1, h2 {
 
 /* navigation links*/
 
-#menu {
-    font-size: 200%;
-}
-
 #menu, #logo {
     line-height: 5rem;
     margin-right: 7vw;
@@ -49,7 +45,6 @@ h1, h2 {
 #menu li {
     float: right;
     list-style-type: none;
-    letter-spacing: 2px;
     margin: 1%;   
     font-size: 1.5rem;
 }
@@ -81,13 +76,13 @@ h1, h2 {
      
 #cover-text {
     font-family: 'lato', sans-serif;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     padding-left: 10px;
     background-color: white;
     opacity: .7;
 
     margin: auto;
-    transform: translateY(3em);
+    transform: translateY(5em);
     width: 80vw;
 }
 
@@ -102,22 +97,43 @@ h1, h2 {
     width: 80vw;
     margin: auto;
     padding-top: 1em;
+    font-family: 'Poppins', sans-serif;
 }
 
 hr {
-    border: solid 1px black;
+    border: .1px solid black;
 }
 
 
 .intro  {
     margin-left: 10%;
     margin-right: 10%;
-    padding-top: 1em;
     padding-bottom: 2rem;
+    letter-spacing: 2px;
     width: 50%;
+    color: black;
+    margin-top: 1em;
 }
 
+.container-intro {
+    height: 10em;
+    width: 10em;
+    padding: 1%;
+    transform: translate(70em, -13em);
+    border-radius: 50%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    position: absolute;
+}
 
+#physical-image-intro {
+    height: 100%;
+    background: url('../images/physical-image.jpg') no-repeat center center ;
+    background-size: cover;  
+    background-color: grey; 
+    border-radius: 50%;
+}
 /* footer and icons*/
 
 #footer {
@@ -173,7 +189,7 @@ footer > p {
     overflow: hidden;
 }
 
-#physical-image {
+.physical-image {
     height: 100%;
     background: url('../images/physical-image.jpg') no-repeat center center ;
     background-size: cover;  
@@ -182,7 +198,7 @@ footer > p {
 
 }
 
-#mental-image {
+.mental-image {
     height: 100%;
     background: url('../images/mental-image.jpg') no-repeat center center ;
     background-size: cover;  
@@ -192,7 +208,7 @@ footer > p {
 
 }
 
-#emotional-image {
+.emotional-image {
     height: 100%;
     background: url('../images/emotional-image.jpg') no-repeat center center ;
     background-size: cover;  
@@ -251,7 +267,7 @@ footer > p {
 
 #steps-image {
     height: 100%;
-    background: url('../images/walking-quote.jpg') no-repeat center center ;
+    background: url('../images/physical-quote.jpg') no-repeat center center ;
     background-size: cover;  
     background-color: grey; 
     border-radius: 50%;
