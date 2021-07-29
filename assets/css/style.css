@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@200&display=swap");
 
 * {
     margin: 0;
@@ -12,23 +12,24 @@
 
 body {
     color: grey;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 400;
 }
 
 /* headings and logo*/
 
-h1, h2 {
+h1,
+h2 {
     color: black;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
 }
 
 #logo {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     float: left;
     font-size: 2rem;
-    margin-left:  10vw;
+    margin-left: 10vw;
 }
 
 #header {
@@ -37,7 +38,8 @@ h1, h2 {
 
 /* navigation links*/
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 5rem;
     margin-right: 7vw;
 }
@@ -45,7 +47,7 @@ h1, h2 {
 #menu li {
     float: right;
     list-style-type: none;
-    margin: 1%;   
+    margin: 1%;
     font-size: 1.5rem;
 }
 
@@ -68,20 +70,19 @@ h1, h2 {
     height: 30em;
     width: 100vw;
     overflow: hidden;
-    background: url('../images/hero-image.jpg') no-repeat center center ;
-    background-size: cover;  
-    background-color: grey;  
-     
+    background: url("../images/hero-image.jpg") no-repeat center center;
+    background-size: cover;
+    background-color: grey;
 }
-     
+
 #cover-text {
-    font-family: 'lato', sans-serif;
+    font-family: "lato", sans-serif;
     letter-spacing: 2px;
     padding-left: 10px;
     padding-bottom: 1em;
     padding-top: 1em;
     background-color: white;
-    opacity: .7;
+    opacity: 0.7;
 
     margin: auto;
     transform: translateY(5em);
@@ -94,7 +95,6 @@ h1, h2 {
 
 #cover-text > h3 {
     margin-top: 100px;
-
 }
 
 /* three spectrums*/
@@ -103,15 +103,14 @@ h1, h2 {
     width: 80vw;
     margin: auto;
     padding-top: 1em;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 hr {
-    border: .1px solid black;
+    border: 0.1px solid black;
 }
 
-
-.intro  {
+.intro {
     margin-left: 10%;
     margin-right: 10%;
     padding-bottom: 2rem;
@@ -139,8 +138,6 @@ hr {
     width: 100%;
     background-color: grey;
     height: 8rem;
-
-    
 }
 
 footer > p {
@@ -153,7 +150,6 @@ footer > p {
 
 .social-networks {
     text-align: center;
-    
 }
 
 .social-networks > li {
@@ -190,28 +186,26 @@ footer > p {
 
 .physical-image {
     height: 100%;
-    background: url('../images/physical-image.jpg') no-repeat center center ;
-    background-size: cover;  
-    background-color: grey; 
+    background: url("../images/physical-image.jpg") no-repeat center center;
+    background-size: cover;
+    background-color: grey;
     border-radius: 50%;
-
 }
 
 .mental-image {
     height: 100%;
-    background: url('../images/mental-image.jpg') no-repeat center center ;
-    background-size: cover;  
-    background-color: grey; 
+    background: url("../images/mental-image.jpg") no-repeat center center;
+    background-size: cover;
+    background-color: grey;
     border-radius: 50%;
-    opacity: .9;
-
+    opacity: 0.9;
 }
 
 .emotional-image {
     height: 100%;
-    background: url('../images/emotional-image.jpg') no-repeat center center ;
-    background-size: cover;  
-    background-color: grey; 
+    background: url("../images/emotional-image.jpg") no-repeat center center;
+    background-size: cover;
+    background-color: grey;
     border-radius: 50%;
 }
 
@@ -224,10 +218,10 @@ footer > p {
 
 .upper-divs {
     font-size: 100%;
-    font-family: 'lato', sans-serif;
+    font-family: "lato", sans-serif;
     letter-spacing: 3px;
     font-weight: 600;
-    opacity: .9;
+    opacity: 0.9;
 
     padding-top: 30px;
     padding-left: 10px;
@@ -238,10 +232,10 @@ footer > p {
 
 .lower-divs {
     font-size: 100%;
-    font-family: 'lato', sans-serif;
+    font-family: "lato", sans-serif;
     letter-spacing: 3px;
     font-weight: 600;
-    opacity: .9;
+    opacity: 0.9;
 
     width: 45vw;
     height: 150px;
@@ -250,7 +244,6 @@ footer > p {
     margin-top: 30px;
     background-color: white;
     color: black;
-    
 }
 
 #steps-container {
@@ -266,26 +259,26 @@ footer > p {
 
 #steps-image {
     height: 100%;
-    background: url('../images/physical-quote.jpg') no-repeat center center ;
-    background-size: cover;  
-    background-color: grey; 
+    background: url("../images/physical-quote.jpg") no-repeat center center;
+    background-size: cover;
+    background-color: grey;
     border-radius: 50%;
 }
 
 #mental-quote {
     height: 100%;
-    background: url('../images/mental-quote.jpg') no-repeat center center ;
-    background-size: cover;  
-    background-color: grey; 
-    border-radius: 50%;    
+    background: url("../images/mental-quote.jpg") no-repeat center center;
+    background-size: cover;
+    background-color: grey;
+    border-radius: 50%;
 }
 
 #emotional-quote {
     height: 100%;
-    background: url('../images/emotional-quote.jpg') no-repeat center center ;
-    background-size: cover;  
-    background-color: grey; 
-    border-radius: 50%;    
+    background: url("../images/emotional-quote.jpg") no-repeat center center;
+    background-size: cover;
+    background-color: grey;
+    border-radius: 50%;
 }
 
 /* form section*/
@@ -304,14 +297,12 @@ footer > p {
     padding: 2em;
     transform: translateY(5em);
     width: 20rem;
-
 }
 
 .signup-form h2 {
     color: #fafafa;
     margin-bottom: 20px;
-    font-family: 'Poppins', sans-serif;
-    
+    font-family: "Poppins", sans-serif;
 }
 
 .text-input {
@@ -334,8 +325,8 @@ footer > p {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color:#005b9f;
-    color:  white;
+    background-color: #005b9f;
+    color: white;
     display: block;
     letter-spacing: 1px;
 }

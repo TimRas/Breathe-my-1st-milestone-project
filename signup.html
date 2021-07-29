@@ -1,89 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Breathe, a meditation site for beginners" />
+        <meta name="keywords" content="Breathe, meditation, self-improvement, beginners" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Breathe, a meditation site for beginners">
-    <meta name="keywords" content="Breathe, meditation, self-improvement, beginners">
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <title>Sign up | Breathe</title>
+    </head>
 
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Sign up | Breathe</title>
-</head>
+    <body>
+        <div id="page-container">
+            <div id="content-wrapper">
+                <header id="header">
+                    <a href="index.html">
+                        <h1 id="logo">Breathe</h1>
+                    </a>
+                    <nav>
+                        <ul id="menu">
+                            <li>
+                                <a href="signup.html" class="active">Sign Up</a>
+                            </li>
+                            <li>
+                                <a href="emotional.html">Emotional</a>
+                            </li>
+                            <li>
+                                <a href="mental.html">Mental</a>
+                            </li>
+                            <li>
+                                <a href="physical.html">Physical</a>
+                            </li>
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </header>
+                <section id="form-section">
+                    <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+                        <h2>Sign up here!</h2>
+                        <label for="fname">First Name</label>
+                        <input id="fname" name="first_name" type="text" required class="text-input" />
 
-<body>
-    <div id="page-container">
-        <div id="content-wrapper">
-            <header id="header">
-                <a href="index.html">
-                    <h1 id="logo">Breathe</h1>
-                </a>
-                <nav>
-                    <ul id="menu">
-                        <li>
-                            <a href="signup.html" class="active">Sign Up</a>
-                        </li>
-                        <li>
-                            <a href="emotional.html">Emotional</a>
-                        </li>
-                        <li>
-                            <a href="mental.html">Mental</a>
-                        </li>
-                        <li>
-                            <a href="physical.html">Physical</a>
-                        </li>
-                        <li>
-                            <a href="index.html">Home</a>
-                        </li>
-                    </ul>
-                </nav>
-            </header>
-            <section id="form-section">
-                <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
-                    <h2>Sign up here!</h2>
-                    <label for="fname">First Name</label>
-                    <input id="fname" name="first_name" type="text" required class="text-input">
+                        <label for="lname">Last Name</label>
+                        <input id="lname" name="last_name" type="text" required class="text-input" />
 
-                    <label for="lname">Last Name</label>
-                    <input id="lname" name="last_name" type="text" required class="text-input">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email_address" required class="text-input" />
 
-                    <label for="email">Email Address</label>
-                    <input type="email" id="email" name="email_address" required class="text-input">
-
-                    <input class="join-button" type="submit" value="Confirm">
-                </form>
-            </section>
+                        <input class="join-button" type="submit" value="Confirm" />
+                    </form>
+                </section>
+            </div>
+            <footer id="footer">
+                <ul class="social-networks">
+                    <li>
+                        <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"> <i class="fab fa-facebook-square"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)"> <i class="fab fa-twitter-square"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"> <i class="fab fa-instagram-square"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit our Youtube page (opens in a new tab)"> <i class="fab fa-youtube-square"></i></a>
+                    </li>
+                </ul>
+                <p>Copyright 2021 &copy; Tim Ras</p>
+            </footer>
         </div>
-        <footer id="footer">
-            <ul class="social-networks">
-                <li>
-                    <a href="https://facebook.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Facebook page (opens in a new tab)"> <i
-                            class="fab fa-facebook-square"></i></a>
-                </li>
-                <li>
-                    <a href="https://twitter.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Twitter page (opens in a new tab)"> <i
-                            class="fab fa-twitter-square"></i></a>
-                </li>
-                <li>
-                    <a href="https://instagram.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Instagram page (opens in a new tab)"> <i
-                            class="fab fa-instagram-square"></i></a>
-                </li>
-                <li>
-                    <a href="https://youtube.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Youtube page (opens in a new tab)"> <i
-                            class="fab fa-youtube-square"></i></a>
-                </li>
-            </ul>
-            <p>Copyright 2021 &copy; Tim Ras</p>
-        </footer>
-    </div>
 
-    <script src="https://kit.fontawesome.com/4fa053dcb7.js" crossorigin="anonymous"></script>
-
-</body>
-
+        <script src="https://kit.fontawesome.com/4fa053dcb7.js" crossorigin="anonymous"></script>
+    </body>
 </html>
