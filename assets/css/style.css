@@ -220,9 +220,9 @@ footer > p {
 }
 
 #steps {
-    height: 55em;
     width: 80vw;
     overflow: hidden;
+    padding-bottom: 4em;
     margin: auto;
 }
 
@@ -246,9 +246,6 @@ footer > p {
     letter-spacing: 3px;
     font-weight: 600;
     opacity: 0.9;
-
-    width: 45vw;
-    height: 150px;
     padding-top: 30px;
     padding-left: 10px;
     margin-top: 30px;
@@ -256,15 +253,33 @@ footer > p {
     color: black;
 }
 
+.lower-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.lower-flex {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 57%;
+    margin-right: 40px;
+}
+
 #steps-container {
     height: 20em;
     width: 20em;
     padding: 1%;
-    transform: translate(55em, -20em);
     border-radius: 50%;
     border-width: 1px;
     border-style: solid;
     border-color: grey;
+    margin-top: 5em;
 }
 
 #steps-image {
