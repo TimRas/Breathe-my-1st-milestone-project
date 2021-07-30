@@ -7,7 +7,7 @@
 }
 
 #page-container {
-    min-height: 100vh;
+    min-height: calc(100vh - 120px)
 }
 
 body {
@@ -104,12 +104,16 @@ h2 {
     margin: auto;
     padding-top: 1em;
     font-family: "Poppins", sans-serif;
+    font-size: 2em;
 }
 
 hr {
     border: 0.1px solid black;
 }
 
+.content p {
+    width: auto;
+}
 .intro {
     margin-left: 10%;
     margin-right: 10%;
@@ -124,14 +128,20 @@ hr {
     height: 10em;
     width: 10em;
     padding: 1%;
-    transform: translate(70em, -13em);
     border-radius: 50%;
     border-width: 1px;
     border-style: solid;
     border-color: grey;
-    position: absolute;
 }
 
+.container-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /*justify-content: center;
+    width: 80%;*/
+    margin: 40px auto;
+}
 /* footer and icons*/
 
 #footer {
