@@ -7,13 +7,12 @@
 }
 
 #page-container {
-    min-height: calc(100vh - 120px)
+    min-height: calc(100vh - 120px);
 }
 
 body {
     color: grey;
     font-family: "Lato", sans-serif;
-    font-weight: 400;
 }
 
 /* headings and logo*/
@@ -76,7 +75,6 @@ header {
 }
 
 #cover-text {
-    font-family: "lato", sans-serif;
     letter-spacing: 2px;
     padding: 3%;
     background-color: white;
@@ -99,7 +97,6 @@ header {
     width: 80vw;
     margin: auto;
     padding-top: 1em;
-    font-family: "Poppins", sans-serif;
     font-size: 2em;
 }
 
@@ -136,38 +133,6 @@ hr {
     align-items: center;
     margin: 40px auto;
 }
-/* footer and icons*/
-
-footer {
-    width: 100%;
-    background-color: grey;
-    height: 8rem;
-    box-shadow: -19px 5px 20px 0px grey;
-}
-
-footer > p {
-    color: black;
-    font-weight: 600;
-    transform: translateY(3.5em);
-    text-align: center;
-    letter-spacing: 1px;
-}
-
-.social-networks {
-    text-align: center;
-}
-
-.social-networks > li {
-    display: inline;
-    margin: 1em;
-    position: relative;
-    top: 2em;
-}
-
-.social-networks i {
-    font-size: 160%;
-    color: #000;
-}
 
 /* steps section and images*/
 
@@ -186,7 +151,6 @@ footer > p {
     border-width: 1px;
     border-radius: 50%;
     margin: auto;
-    overflow: hidden;
 }
 
 .physical-image {
@@ -216,14 +180,11 @@ footer > p {
 
 #steps {
     width: 80vw;
-    overflow: hidden;
     padding-bottom: 4em;
     margin: auto;
 }
 
 .upper-divs {
-    font-size: 100%;
-    font-family: "lato", sans-serif;
     letter-spacing: 3px;
     font-weight: 600;
     opacity: 0.9;
@@ -235,8 +196,6 @@ footer > p {
 }
 
 .lower-divs {
-    font-size: 100%;
-    font-family: "lato", sans-serif;
     letter-spacing: 3px;
     font-weight: 600;
     opacity: 0.9;
@@ -276,7 +235,7 @@ footer > p {
     margin-top: 5em;
 }
 
-#steps-image {
+#physical-image {
     height: 100%;
     background: url("../images/physical-quote.jpg") no-repeat center center;
     background-size: cover;
@@ -326,7 +285,6 @@ footer > p {
     color: #fafafa;
     margin-bottom: 20px;
     text-align: center;
-    font-family: "Poppins", sans-serif;
 }
 
 .text-input {
@@ -359,6 +317,39 @@ footer > p {
     color: white;
 }
 
+/* footer and icons*/
+
+footer {
+    width: 100%;
+    background-color: grey;
+    height: 8rem;
+    box-shadow: -19px 5px 20px 0px grey;
+}
+
+footer > p {
+    color: black;
+    font-weight: 600;
+    transform: translateY(3.5em);
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+    margin: 1em;
+    position: relative;
+    top: 2em;
+}
+
+.social-networks i {
+    font-size: 160%;
+    color: #000;
+}
+
 /*  media queries */
 
 /* header */
@@ -369,7 +360,7 @@ footer > p {
         margin-top: 1.3rem;
     }
 }
-    
+
 @media screen and (max-width: 630px) {
     #logo {
         font-size: 1.5rem;
@@ -400,7 +391,8 @@ footer > p {
         text-align: center;
     }
 
-    #menu, #logo {
+    #menu,
+    #logo {
         margin-right: auto;
     }
 }
