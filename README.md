@@ -1,3 +1,20 @@
+# Breathe
+
+Breathe is a meditation website aiming to help people from all different ages and backgrounds to ground themselves in this world full of stimulus. 
+
+Everything  has to go fast these days. The faster the better. But the faster we go, the quicker we tend to lose ourselves. We focus too much on the outside world and forget our own well-being. This results in problems such as: stress, fatigue, addictions, mental illness, broken relationships, overweight. The list goes on and on. Breathe is a great way to filter these overwhelming impulses and bring us back to what really matters, ourselves. By using Breathe, we hope to give the user a calm and accessible way to filter out a lot of the tension that life brings and give them a platform to come back to when life can be too much.
+
+![image to show responsive design of the website](assets/images/mockup-breathe.png)
+
+
+
+
+
+
+
+
+
+
 Testing:
 
 I tested to see if my navigation links would have the same color inherited from the body by changing the color of the body. The navigation links changed correspondly.
