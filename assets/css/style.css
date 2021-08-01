@@ -137,6 +137,10 @@ hr {
 
 /* steps section and images*/
 
+.spectrum{
+    color: white;
+}
+
 #outer-container {
     padding-top: 6em;
     height: 22em;
