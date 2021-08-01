@@ -49,6 +49,7 @@ header {
     list-style-type: none;
     margin: 0.6em;
     font-size: 1.5rem;
+    color: black;
 }
 
 #menu a {
@@ -235,7 +236,7 @@ hr {
     margin-top: 5em;
 }
 
-#physical-image {
+#physical-quote {
     height: 100%;
     background: url("../images/physical-quote.jpg") no-repeat center center;
     background-size: cover;
